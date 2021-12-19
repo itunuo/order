@@ -1,0 +1,56 @@
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+}
+.container {
+  width: 450px;
+  height: 600px;
+  border: 2px hidden black;
+  margin: 3em auto;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  background: white;
+  position: relative;
+}
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.container p {
+  padding: 10px 20px 10px 20px;
+  color: rgb(114, 110, 110);
+}
+.annual {
+  padding: -10px;
+  display: block;
+}
+.inside {
+  text-align: center;
+}
+.two {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 10px 20px;
+  padding: 10px;
+  background: rgba(228, 225, 225, 0.384);
+  border-radius: 20px;
+}
+
+.four {
+  padding: 30px;
+}
+i {
+  padding: 15px;
+}
+button {
+  border-radius: 10px;
+  background: blue;
+  border: hidden;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgb(66, 65, 65);
+}
